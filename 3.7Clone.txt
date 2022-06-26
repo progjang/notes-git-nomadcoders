@@ -1,0 +1,10 @@
+# 콘솔을 이용해 코드저장소(github)에서 코드를 Desktop 으로 가져오는 방법
+    -facebook/react 에서 내 코드저장소로 fork
+    > git clone <내 fork_URL:브라우저주소창에서 확인> <option:폴더명, 다른 폴더명으로 저장하고 싶을 때>
+    - 수정작업 진행 후
+    > git add .
+    > git commit -m "~"
+    > git push origin master
+    - 이제 new pull request 해서 코드 협업할 수 있음
+    
+    (tip) 내가 포크하지 않은 코드저장소를 클론하면 파일을 받을 수는 있지만 작업한 내용을 업로드할 수는 없음
